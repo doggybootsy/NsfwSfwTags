@@ -1,11 +1,13 @@
   :root{
     --nsfw-color:red;
+    --nsfw-text:"NFSW";
     --sfw-color:blue;
+    --sfw-text:"SFW";
   }
   [aria-label*="(NSFW)"] ~ .name-23GUGE:before {
-  content: 'NSFW';
+  content:var(--nsfw-text);
   color: #fff;
-  background: var(--sfw-color);
+  background: var(--nsfw-color);
   font-size: 10px;
   height: 1.28em;
   padding: 1px 4px;
@@ -17,7 +19,7 @@
   right:4px;
 }
 :not([aria-label*="(NSFW)"]) ~ .name-23GUGE:before {
-  content: 'SFW';
+  content:var(--sfw-text);
   color: #fff;
   background: var(--sfw-color);
   font-size: 10px;
