@@ -7,10 +7,14 @@
 @author         Doggybootsy#1333
 ==/UserStyle== */
 
+  :root{
+    --nsfw-color:red;
+    --sfw-color:blue;
+  }
   [aria-label*="(NSFW)"] ~ .name-23GUGE:before {
   content: 'NSFW';
   color: #fff;
-  background: red;
+  background: var(--sfw-color);
   font-size: 10px;
   height: 1.28em;
   padding: 1px 4px;
@@ -24,7 +28,7 @@
 :not([aria-label*="(NSFW)"]) ~ .name-23GUGE:before {
   content: 'SFW';
   color: #fff;
-  background: blue;
+  background: var(--sfw-color);
   font-size: 10px;
   height: 1.28em;
   padding: 1px 4px;
