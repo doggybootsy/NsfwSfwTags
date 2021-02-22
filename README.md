@@ -5,7 +5,8 @@
     <img src="https://i.imgur.com/SCObryS.png">
 </p>
 
-
+### Description
+if you remove any of the two root variables to remove it
 
 ### Installation
 So far this Theme works on [Powercord](https://github.com/powercord-org/powercord) and [BetterDiscord](https://www.betterdiscord.net/) and [Stylus](https://chrome.google.com/webstore/detail/apmmpaebfobifelkijhaljbmpcgbjbdo)
