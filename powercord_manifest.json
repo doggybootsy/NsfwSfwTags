@@ -1,0 +1,8 @@
+{
+    "name": "Nsfw Sfw Tags",
+    "description": "Adds a nsfw label on nsfw chats, and a sfw label on normal chats",
+    "version": "1.0",
+    "author": "Doggybootsy#1333",
+    "theme": "Base.css",
+    "license": "MIT"
+}
